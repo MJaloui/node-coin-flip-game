@@ -4,6 +4,7 @@ const url = require('url');
 // const querystring = require('querystring');
 // const figlet = require('figlet')
 
+//some help with sylvie who received help from Merium
 const server = http.createServer(function (req, res) {
   const page = url.parse(req.url).pathname;
   // const params = querystring.parse(url.parse(req.url).query);
